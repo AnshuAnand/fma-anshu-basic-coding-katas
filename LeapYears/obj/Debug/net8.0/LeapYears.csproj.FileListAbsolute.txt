@@ -1,0 +1,15 @@
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\bin\Debug\net8.0\LeapYears.exe
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\bin\Debug\net8.0\LeapYears.deps.json
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\bin\Debug\net8.0\LeapYears.runtimeconfig.json
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\bin\Debug\net8.0\LeapYears.dll
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\bin\Debug\net8.0\LeapYears.pdb
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\LeapYears.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\LeapYears.AssemblyInfoInputs.cache
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\LeapYears.AssemblyInfo.cs
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\LeapYears.csproj.CoreCompileInputs.cache
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\LeapYears.sourcelink.json
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\LeapYears.dll
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\refint\LeapYears.dll
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\LeapYears.pdb
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\LeapYears.genruntimeconfig.cache
+C:\src\FMA\fma-anshu-basic-coding-katas\LeapYears\obj\Debug\net8.0\ref\LeapYears.dll
