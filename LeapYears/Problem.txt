@@ -1,0 +1,14 @@
+Problem: Write a program that prints the next 20 leap years.
+
+Breakdown:
+    - Create a for loop by initializing at 2024
+    - Iterate the loop 20 times
+
+Enhancement
+    - Get the value for current year
+    - If the value for year is divisible by 4, use the for loop to print next 20
+    - If the value for year is NOT divisible by 4, 
+        - find the remainder
+        - subtract the remainder from 4 , and get the value, say z
+        - add z to the current year. This will give the next leap year
+        - set the value as initializer and iterate the loop 20 times

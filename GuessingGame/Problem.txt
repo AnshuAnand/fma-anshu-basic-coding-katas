@@ -1,0 +1,19 @@
+Problem: Write a guessing game where the user has to guess a secret number. The program should provide feedback after each guess and print the number of tries needed.
+
+Keywords
+- "user has to guess" - user input
+- "secret number" - Math.random function to generate a random secret number with every run
+- "provide feedback" - validation check
+- "print number of tries"
+
+Possible solution
+- Ask the user for input. Save it to a variable 'userInput'
+
+- Create a while loop that checks if  'secretNumber' == 'userInput'
+    - Perform 'secretNumber' - 'userInput'
+        - If the result is negative - Print "Too small. Try again." & re-execute the loop
+        - If the result is negative - Print "Too large. Try again." & re-execute the loop
+    - Increment the counter everytime while loop is executed
+    
+- Create an integer variable 'numberOfTries' that saves the number of tries needed
+- Print the value for 'numberOfTries'
