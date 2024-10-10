@@ -14,12 +14,12 @@ class Program
         Console.WriteLine("Current Date in dd/mm/yyyy format is: " + currentDate);
         int currentDateLength = currentDate.Length;
         string currentYearAsString = currentDate.Substring(currentDateLength - 4);
-        Console.WriteLine("Current year is: " + currentYearAsString);
 
-        //Logic to check if current year is a leap year
 
-        //int currentYear = Int32.Parse(currentYearString);
-        int currentYear = 2025; //Non-leap year as starting value
+        int currentYear = Int32.Parse(currentYearAsString);
+        //int currentYear = 2025; //Non-leap year as starting value
+        Console.WriteLine("Starting year is: " + currentYear);
+        
         int remainder = currentYear % 4;
         string startYear;
         string output;
