@@ -10,46 +10,45 @@ class Program
         //Find the year of current date
 
         DateTime thisDay = DateTime.Today;
-        string currentDate = thisDay.ToString("d");
-        Console.WriteLine("Current Date in dd/mm/yyyy format is: " + currentDate);
-        int currentDateLength = currentDate.Length;
-        string currentYearAsString = currentDate.Substring(currentDateLength - 4);
-
-
-        int currentYear = Int32.Parse(currentYearAsString);
+        int currentYear = thisDay.Year;
         //int currentYear = 2025; //Non-leap year as starting value
         Console.WriteLine("Starting year is: " + currentYear);
-        
+
         int remainder = currentYear % 4;
-        string startYear;
-        string output;
+
+
+        string printOutput = "";
+        int numberOfIterations = 4;
 
         //Check if current year is a leap year
-        if (remainder == 0)
+        /*if (remainder == 0)
         {
-            startYear = currentYear.ToString();
-            output = startYear;
-            for (int i = 1; i < 4; i++)
+            int nextLeapYear = currentYear + 4;
+            for (int i = 0; i < numberOfIterations; i++)
             {
-                int nextLeapYear = Convert.ToInt32(startYear) + 4;
-                string nextLeapYearAsString = Convert.ToString(nextLeapYear);
-                output = output + " " + nextLeapYearAsString;
-                Console.WriteLine("Output is: " + output);
-                startYear = nextLeapYearAsString;
+                printOutput = printOutput + " " + nextLeapYear;
+                nextLeapYear += 4;
             }
         }
+
         else
         {
-            startYear = (currentYear + (4 - remainder)).ToString();
-            output = startYear;
-            for (int i = 1; i < 4; i++)
+            int nextLeapYear = currentYear + (4 - remainder);
+            for (int i = 0; i < numberOfIterations; i++)
             {
-                int nextLeapYear = Convert.ToInt32(startYear) + 4;
-                string nextLeapYearAsString = Convert.ToString(nextLeapYear);
-                output = output + " " + nextLeapYearAsString;
-                Console.WriteLine("Output is: " + output);
-                startYear = nextLeapYearAsString;
+                printOutput = printOutput + " " + nextLeapYear;
+                nextLeapYear += 4;
             }
+        } */
+
+        int nextLeapYear = currentYear + (4 - remainder);
+        for (int i = 0; i < numberOfIterations; i++)
+        {
+            printOutput = printOutput + " " + nextLeapYear;
+            nextLeapYear += 4;
         }
+
+        Console.WriteLine("Output is: " + printOutput);
     }
 }
+

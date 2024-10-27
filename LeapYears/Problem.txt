@@ -12,3 +12,7 @@ Enhancement
         - subtract the remainder from 4 , and get the value, say z
         - add z to the current year. This will give the next leap year
         - set the value as initializer and iterate the loop 20 times
+
+
+Homework
+    - An else case is probably not needed for the remainder. Reassign find the next possible dividible by 4
