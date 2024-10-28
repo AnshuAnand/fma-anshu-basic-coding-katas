@@ -12,13 +12,13 @@ class Program
         DateTime thisDay = DateTime.Today;
         int currentYear = thisDay.Year;
         //int currentYear = 2025; //Non-leap year as starting value
-        Console.WriteLine("Starting year is: " + currentYear);
+        //Console.WriteLine("Starting year is: " + currentYear);
 
         int remainder = currentYear % 4;
 
 
         string printOutput = "";
-        int numberOfIterations = 4;
+        int numberOfIterations = 20;
 
         //Check if current year is a leap year
         /*if (remainder == 0)
@@ -47,8 +47,7 @@ class Program
             printOutput = printOutput + " " + nextLeapYear;
             nextLeapYear += 4;
         }
-
-        Console.WriteLine("Output is: " + printOutput);
+        Console.WriteLine("Leap Years: " + printOutput);
     }
 }
 
